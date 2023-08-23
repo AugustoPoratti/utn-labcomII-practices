@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pagina2</title>
+    <style>
+        * {
+        box-sizing: border-box;
+        }
+        body {
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        color: #aaaaaa;
+        }
+        div.container {
+        overflow: auto;
+        }
+        header {
+        background-color: #e5e5e5;
+        padding: 15px;
+        text-align: center;
+        }
+        nav {
+        float: left;
+        width: 20%;
+        text-align: center;
+        }
+        nav ul {
+        padding-left: 0px;
+        }
+        nav li {
+        list-style: none;
+        }
+        
+        nav li a {
+        background-color: #e5e5e5;
+        padding: 8px;
+        margin-top: 7px;
+        display: block;
+        width: 100%;
+        color: black;
+        font-weight: 700;
+        }
+        main {
+        float: left;
+        width: 60%;
+        padding: 0 20px;
+        }
+        .right {
+        background-color: #e5e5e5;
+        float: left;
+        width: 20%;
+        padding: 15px;
+        margin-top: 7px;
+        text-align: center;
+        }
+        footer {
+        background-color: #e5e5e5;
+        text-align: center;
+        padding: 10px;
+        margin-top: 7px;
+        }
+        /* For mobile phones: */
+        @media only screen and (max-width: 620px) {
+        nav,
+        main,
+        .right {
+        width: 100%;
+        }
+        }
+        </style>
+</head>
+<body>
+    <header>
+        <h1>NOTICIAS</h1>
+    </header>
+    <div class="container">
+       <nav>
+            <ul>
+                <li><a href="index.html">Inicio</li>
+                <li><a href="multimedia.html">Multimedia</li>
+                <li><a href="contacto.html">Contacto</li>       
+            </ul>
+       </nav> 
+       <main>
+        <section>
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/VhDha7BDvBI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen>
+
+            </iframe>
+        </section>
+       </main>
+       
+    </div>
+</body>
+</html>
